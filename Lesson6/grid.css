@@ -1,0 +1,37 @@
+.wrapper {
+    display: grid;
+    /*grid-template-columns: 200fr 200fr;*/
+    /*grid-template-columns: 30% 1fr 2fr;*/
+    /*grid-template-rows: 150fr 250fr;*/
+    grid-template-columns: repeat(3, 300px);
+    /*height: 900px;*/
+    grid-template-areas:
+     "b b g"
+     "r y g";
+
+    /*justify-items: start;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+.blue {
+    background-color: blue;
+    grid-area: b;
+    justify-self: end;
+}
+
+.red {
+    background-color: red;
+    grid-area: r;
+}
+
+.yellow {
+    background-color: yellow;
+    grid-area: y;
+}
+
+.green{
+    background-color: green;
+    grid-area: g;
+    align-self: center;
+}
