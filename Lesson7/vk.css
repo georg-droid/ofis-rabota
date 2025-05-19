@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    margin: 0 auto;
+}
+.Menu {
+    border: 2px solid blue;
+    padding: 0px 0px 0px 0px;
+}
+
+.redactor {
+    text-align: center;
+}
+.Contact {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    padding: 0px 0px 0px 0px;
+    text-align: start;
+}
