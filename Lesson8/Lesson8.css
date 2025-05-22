@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    background-color: #4A76A8;
+    height: 250px;
+}
+.border {
+    height: 20px;
+    border: 1px dotted crimson;
+}
+
+.reletive {
+    position: relative;
+    left: 30px;
+    top: 30px;
+    background-color: #818C99;
+}
+
+.absolute {
+    position: relative;
+    background-color:#4A76A8;
+}
+
+.span-a {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+.p-f {
+    position: fixed;
+    color: blue;
+    font-size: 40px;
+    font-weight: 3px;
+    bottom: 10px;
+    right: 10px;
+ }
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.border {
+    height: 20px;
+    border: 1px hidden crimson;
+}
